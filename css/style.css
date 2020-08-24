@@ -1,0 +1,33 @@
+.carousel-caption {
+}
+
+.carousel-item img {
+  filter: brightness(50%);
+  transition: all 1s;
+}
+
+.carousel-item img:hover {
+  filter: brightness(100%);
+}
+
+.mr-3 {
+  width: 50%;
+}
+
+.card img {
+  max-height: 200px;
+  transition: all 1s;
+  filter: brightness(90%);
+}
+
+.card img:hover {
+  transform: scale(2);
+  z-index: 1000;
+  filter: brightness(100%);
+}
+
+.services {
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+}
